@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Background
+Bundle-SymbolicName: com.vol.organiser.background; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.vol.organiser.background.Activator
+Bundle-Vendor: VOL
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.vol.organiser;bundle-version="1.0.0",
+ com.vol.organiser.business;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Export-Package: com.vol.organiser.background,
+ com.vol.organiser.background.actions

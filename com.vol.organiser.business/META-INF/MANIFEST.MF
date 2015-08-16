@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Business
+Bundle-SymbolicName: com.vol.organiser.business;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.vol.organiser.business.Activator
+Bundle-Vendor: VOL
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.6.0",
+ com.vol.organiser;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: com.vol.organiser.business
+Bundle-ActivationPolicy: lazy

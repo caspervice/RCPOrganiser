@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="BusinessEP" name="BusinessExtensionPoint" schema="schema/BusinessEP.exsd"/>
+   <extension
+         id="com.vol.organiser.business"
+         name="Business Manager"
+         point="com.vol.organiser.BusinessManagerEP">
+      <BusinessManagerEP
+            class="com.vol.organiser.business.BusinessManager">
+      </BusinessManagerEP>
+   </extension>
+   <extension
+         id="Organiser"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="com.vol.organiser.application"
+            name="Organiser">
+      </product>
+   </extension>
+
+</plugin>
